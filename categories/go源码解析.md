@@ -4,5 +4,5 @@ layout: default
 
 {% assign tech_posts = site.posts | where_exp: "post", "post.categories contains 'Go源码解析'" %}
 {% for post in tech_posts %}
-- [{{ post.title }}]({{ post.url }})
+- [{{ post.title }}]({{ post.url }}) - {{post.date | date: "%Y-%m-%d"}}
 {% endfor %}
