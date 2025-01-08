@@ -6,9 +6,7 @@ layout: default
 - [{{ post.title }}]({{ post.url }}) {{post.date}}
 {% endfor %}
 
-<br />
 ---
-<br />
 
 {% assign all_categories = site.posts | map: 'categories' | flatten | uniq | compact %}
 {% for category in all_categories %}
