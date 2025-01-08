@@ -4,7 +4,7 @@ layout: default
 
 - 最近文章
 {% for post in site.posts | sort: 'date' | reverse limit: 10 %}
-- [{{ post.title }}]({{ post.url }})
+  - [{{ post.title }}]({{ post.url }})
 {% endfor %}
 
 - 分类
