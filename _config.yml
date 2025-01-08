@@ -4,3 +4,6 @@ show_downloads: false
 show_github: false
 google_analytics:
 theme: jekyll-theme-hacker
+collections:
+  categories:
+    output: true
