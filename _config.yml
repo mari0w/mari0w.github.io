@@ -4,6 +4,7 @@ show_downloads: false
 show_github: false
 google_analytics:
 theme: jekyll-theme-hacker
+author: Mari0w
 collections:
   categories:
     output: true
